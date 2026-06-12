@@ -24,3 +24,7 @@ This project represents a major step in my learning journey, focusing on writing
 * **Frontend:** React (Bootstrapped with Vite)
 * **Language:** JavaScript (ES6+)
 * **Styling:** CSS3
+
+## Deployed
+
+**Live Deployment:** [Play the game here!](https://manojkarri04.github.io/react-lottery-game/)
