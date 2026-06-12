@@ -1,0 +1,17 @@
+.Token {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: beige;
+}
+
+.Token span {
+    color: blue;
+    font-size: 20px;
+}

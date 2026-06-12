@@ -1,0 +1,24 @@
+.Ticket
+{
+   align-items: center;
+   justify-content: center;
+   /* margin: "20px auto 0"; */
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.token
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
