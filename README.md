@@ -1,16 +1,26 @@
-# React + Vite
+# 🎰 React Lottery Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, interactive web-based lottery game built with React. Generate a random 3-digit ticket and see if the numbers add up to exactly 15 to win! 
 
-Currently, two official plugins are available:
+This project was developed as a practice exercise to strengthen fundamental React concepts, state management, and modern CSS layout techniques.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* **Randomized Tickets:** Generates a fresh array of 3 random numbers (0-9) upon requesting a new ticket.
+* **Dynamic Win Logic:** Automatically calculates the sum of the ticket array using JavaScript's `.reduce()` method.
+* **Instant Visual Feedback:** Utilizes conditional rendering to display a victory or try-again message instantly.
+* **Clean UI:** A centered, user-friendly interface built with CSS Flexbox.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* **Frontend:** React (Bootstrapped with Vite)
+* **Language:** JavaScript (ES6+)
+* **Styling:** CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+
+If you want to download and run this game on your own machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/manojkarri04/react-lottery-game.git](https://github.com/manojkarri04/react-lottery-game.git)
