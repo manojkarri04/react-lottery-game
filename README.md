@@ -11,16 +11,16 @@ This project was developed as a practice exercise to strengthen fundamental Reac
 * **Instant Visual Feedback:** Utilizes conditional rendering to display a victory or try-again message instantly.
 * **Clean UI:** A centered, user-friendly interface built with CSS Flexbox.
 
+## 📈 Architecture & Scalability
+
+This project represents a major step in my learning journey, focusing on writing **production-ready** code rather than just functional scripts. 
+
+* **Zero Hardcoding:** The game is built to be completely dynamic. Parameters like the number of digits on a ticket (`n={3}`) and the win condition (`WinningSum={15}`) are passed as props to the component. 
+* **Highly Scalable:** Because the logic relies on dynamic props and array methods instead of hardcoded indexes, this game can instantly be scaled into a 5-digit, 10-digit, or even a 100-digit lottery game by changing a single line of code in the parent component.
+* **Component-Based Design:** The logic is strictly separated into clean, reusable components (like extracting `TicketNum.jsx`), ensuring the application remains maintainable as it grows.
+
 ## 🛠️ Technologies Used
 
 * **Frontend:** React (Bootstrapped with Vite)
 * **Language:** JavaScript (ES6+)
 * **Styling:** CSS3
-
-## 🚀 How to Run Locally
-
-If you want to download and run this game on your own machine, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/manojkarri04/react-lottery-game.git](https://github.com/manojkarri04/react-lottery-game.git)
